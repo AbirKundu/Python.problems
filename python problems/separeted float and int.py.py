@@ -14,5 +14,8 @@ for i in range(t):
         
         
         ### GCD problem::::::::
-        
+        import math
+        a,b=map(int,input().split())
+        res=math.gcd(a,b)
+        print(res)
     
