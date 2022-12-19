@@ -26,3 +26,17 @@ else:
     print(-1)                        # if j = 5 which is not in my array it will print -1
     
     
+--------------------------------------------------#### Replace index with a certain number in array####-------------------------------
+# replce positive number with 1 nd replace negative number with 2
+
+n=int(input())                       # # lenthe of the array  = 5
+arr=list(map(int,input().split()))   ## taking index's of an array as input = 1 -2 0 3 4
+for i in range(n):
+    if arr[i]>0:
+        arr[i]=1
+    elif arr[i]<0:
+        arr[i]=2
+print(* arr)                        ## OUTPUT = 1 2 0 1 1        
+
+
+----------------------------------------------##
